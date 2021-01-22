@@ -1,27 +1,22 @@
 import React ,{useState}from 'react'
 import{Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import './navbar.css'
+import './navbar.css';
+import logo from "../logo/Logo.png";
 function Navbar() {
 
-    const [click, setClick] = useState(false);
-    const [button,setButton] = useState(true);
+    const [click, setClick] = useState(false); 
     const handleClick = () => setClick(!click);
 
-    const showButton = () =>{
-        if (window.innerWidth <= 960){
-            setButton(false)
-        }else{
-            setButton(true)
-        }
-        window.addEventListener('resize',showButton);
-    }
     return (
         <div className = "navbar">
+            <div className = "navbar-rectangle">
+            </div>
             <div className = "navbar-container container">
                 <Link to = "/" className = "navbar-logo">
-                         Dot&Line
+                         <img src={logo} alt = "Logo"/>
                 </Link>
+                {/* Icon */}
                 <div className='menu-icon' onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
                 </div>
@@ -47,7 +42,17 @@ function Navbar() {
                         <Link to = "/" className = "nav-links">
                              Become a Tutor
                         </Link>
-                    </li>                        
+                    </li>  
+                    <li className = "nav-item">
+                        <Link to = "/" className = "nav-links">
+                             About Our Company
+                        </Link>
+                    </li>    
+                    <li className = "nav-item">
+                        <Link to = "/" className = "nav-links">
+                             Contact 
+                        </Link>
+                    </li>                    
                     </ul>
                 </div>
             </div>         

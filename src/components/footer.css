@@ -1,0 +1,21 @@
+.footer{
+
+}
+.footer-content{
+    position: absolute;
+height: 18px;
+left: 4.17%;
+right: 25.42%;
+top: calc(50% - 18px/2);
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF;
+
+}
