@@ -1,0 +1,33 @@
+.Notifications{
+    position: absolute;
+width: 1440px;
+height: 40px;
+background: #FF4646;
+}
+.box{
+    position: absolute;
+width: 100px;
+height: 844px;
+
+
+background: #FF00E5;
+opacity: 0.1;
+}
+.Notification_Content{
+    position: absolute;
+height: 32px;
+left: 38.68%;
+right: 38.61%;
+top: calc(50% - 32px/2);
+
+font-family: Avenir Next;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
