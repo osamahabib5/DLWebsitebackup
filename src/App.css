@@ -1,5 +1,7 @@
- /* * {
-   box-sizing: border-box;
-   margin:   0;
-   padding: 0;
-} */
+*{
+  position: relative;
+width: 10745px;
+height: 1618px;
+
+background: #F7F7F7;
+}

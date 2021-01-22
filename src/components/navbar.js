@@ -10,8 +10,6 @@ function Navbar() {
 
     return (
         <div className = "navbar">
-            <div className = "navbar-rectangle">
-            </div>
             <div className = "navbar-container container">
                 <Link to = "/" className = "navbar-logo">
                          <img src={logo} alt = "Logo"/>
