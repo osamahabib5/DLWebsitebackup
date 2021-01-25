@@ -1,6 +1,7 @@
 .navbar-light .navbar-toggler-icon {
     background-image: url("../logo/icons8-menu-32.png");
     border: none;
+    left: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -15,6 +16,18 @@
     /* Fill Color / Color #1 */
     color: #FFFFFF;
 }
-.navbar-light .navbar-nav .nav-link:hover{
+
+.navbar-light .navbar-nav .nav-link:hover {
     color: rgba(94, 145, 92, 0.897);
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+    }
 }
