@@ -12,7 +12,7 @@ function Navigationbar() {
           <img src={Logo} />
         </a>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" style = {{border: 'none'}}/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto" >
           <Nav.Link href="#home">Programs & Courses</Nav.Link>
