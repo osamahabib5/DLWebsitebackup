@@ -1,0 +1,23 @@
+.list-group-item {
+    background-color: #ffffff00;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    background: #00ABBD;
+}
+.justify-content-start {
+    justify-content: flex-start!important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Footer'
 import Logo from '../logo/Logo.png'
 import './Navbar.css'
 import { Navbar, Nav, Card } from 'react-bootstrap'

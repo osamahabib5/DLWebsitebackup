@@ -4,8 +4,10 @@ import Navigationbar from './components/Navigationbar'
 import './App.css'
 function App() {
   return (
-    <div className>
-      <Navigationbar />
+    <div className="page-container">
+      <div className="content-wrap">
+        <Navigationbar />
+      </div>
       <Footer />
     </div>
   );
