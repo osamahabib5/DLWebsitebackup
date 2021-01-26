@@ -1,0 +1,22 @@
+.sidedrawer{
+    height: 100%;
+    background: #00ABBD;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+}
+.sidedrawer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: 2px;
+    margin-top: 50%;
+}
+.sidedrawer li{
+    margin: 0.5rem 0;
+}
