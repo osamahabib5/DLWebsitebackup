@@ -1,15 +1,18 @@
-.sidedrawer{
+.sidedrawer {
     height: 100%;
     background: #00ABBD;
-    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     left: 0;
     width: 70%;
     max-width: 400px;
     z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
 }
-.sidedrawer ul{
+
+.sidedrawer ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -17,6 +20,22 @@
     vertical-align: 2px;
     margin-top: 50%;
 }
-.sidedrawer li{
+
+.sidedrawer li {
     margin: 0.5rem 0;
+    color: white;
+    font-style: normal;
+    align-self: center;
+    margin-right: 4%;
+    font-size: 14px;
+}
+
+.sidedrawer.open {
+    transform: translateX(0);
+}
+
+@media (min-width: 769px) {
+    .sidedrawer {
+        display: none;
+    }
 }
