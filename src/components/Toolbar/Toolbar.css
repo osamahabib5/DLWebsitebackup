@@ -28,9 +28,11 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 14px;
+    font-family: Averin Next;
 }
 .toolbar-navigation-items li{
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
     color: white;
 }
 .spacer{

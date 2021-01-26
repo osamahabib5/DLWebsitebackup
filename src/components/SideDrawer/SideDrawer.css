@@ -33,6 +33,15 @@
 .sidedrawer.open {
     transform: translateX(0);
 }
+.Logo{
+    display: flex!important;
+   justify-content: center!important;
+}
+.toggle-button__line{
+    width: 24px;
+    height: 1px;
+    background: white;
+}
 
 @media (min-width: 769px) {
     .sidedrawer {
